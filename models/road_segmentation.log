@@ -1,0 +1,88 @@
+2025-12-04 00:36:46,899 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-04 00:36:57,856 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-04 00:36:57,856 - __main__ - INFO - CUDA available: False
+2025-12-04 00:36:57,856 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b5-finetuned-cityscapes-1024-1024
+2025-12-04 00:36:59,604 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-04 00:36:59,604 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-04 00:36:59,615 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000116F0803770>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 0fb9e0e8-dae7-40a5-bddc-8479960b3170)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2025-12-04 00:36:59,616 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2025-12-04 00:37:00,619 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000116F07AFB10>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 7c275695-2d32-41c6-b6e2-822c3d5e08d8)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2025-12-04 00:37:00,619 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2025-12-04 00:37:02,627 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000116E389C050>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: dacd2511-e3cd-430b-9e84-2f967d64b333)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2025-12-04 00:37:02,627 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2025-12-04 00:38:15,929 - __main__ - INFO - Initializing Road Detection Processor
+2025-12-04 00:38:16,410 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b5-finetuned-cityscapes-1024-1024
+2025-12-04 00:38:20,803 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-04 00:38:20,803 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-04 00:38:20,807 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CA56570440>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 7c45a05f-ea3d-40b7-8d67-1aa0dec658b2)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2025-12-04 00:38:20,808 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2025-12-04 00:38:21,810 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CA5D0DB750>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: bd469a7b-2951-43f6-be3f-e608b497e3f3)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2025-12-04 00:38:21,810 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2025-12-04 00:38:23,812 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CA5D0DBC50>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 272dea2f-a84c-4117-ae23-5a9487f67b81)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2025-12-04 00:38:23,813 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2025-12-04 07:47:15,817 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-04 07:47:22,324 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-04 07:47:22,324 - __main__ - INFO - CUDA available: False
+2025-12-04 07:47:22,324 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b5-finetuned-cityscapes-1024-1024
+2025-12-04 07:47:23,218 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-04 07:47:23,218 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-04 07:54:17 - __main__ - INFO - ======================================================================
+2025-12-04 07:54:17 - __main__ - INFO - Road Segmentation Application v2.0.0
+2025-12-04 07:54:17 - __main__ - INFO - ======================================================================
+2025-12-04 07:54:23 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-04 07:54:23 - __main__ - INFO - Transformers version: 4.57.3
+2025-12-04 07:54:23 - __main__ - INFO - CUDA available: False
+2025-12-04 07:54:23 - __main__ - INFO - Found 5 images to process
+2025-12-04 08:00:18 - __main__ - INFO - Application interrupted by user
+2025-12-04 08:02:19 - __main__ - INFO - ======================================================================
+2025-12-04 08:02:19 - __main__ - INFO - Road Segmentation Application v2.0.0
+2025-12-04 08:02:19 - __main__ - INFO - ======================================================================
+2025-12-04 08:02:24 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-04 08:02:24 - __main__ - INFO - Transformers version: 4.57.3
+2025-12-04 08:02:24 - __main__ - INFO - CUDA available: False
+2025-12-04 08:02:24 - __main__ - INFO - Found 5 images to process
+2025-12-04 08:02:33 - __main__ - INFO - [1/5] Processing im1.jpg
+2025-12-04 08:02:33 - __main__ - INFO - Processing: im1.jpg (size: (1000, 1500, 3))
+2025-12-04 08:02:35 - __main__ - INFO - Road detected - Coverage: 9.9%, Angle: 154.1°
+2025-12-04 08:02:37 - __main__ - INFO - [2/5] Processing im2.jpg
+2025-12-04 08:02:37 - __main__ - INFO - Processing: im2.jpg (size: (418, 626, 3))
+2025-12-04 08:02:38 - __main__ - INFO - Road detected - Coverage: 47.0%, Angle: 98.6°
+2025-12-04 08:02:39 - __main__ - INFO - [3/5] Processing im3.jpg
+2025-12-04 08:02:39 - __main__ - INFO - Processing: im3.jpg (size: (1390, 866, 3))
+2025-12-04 08:02:41 - __main__ - INFO - Road detected - Coverage: 18.7%, Angle: 0.9°
+2025-12-04 08:02:42 - __main__ - INFO - [4/5] Processing im4.jpg
+2025-12-04 08:02:42 - __main__ - INFO - Processing: im4.jpg (size: (408, 612, 3))
+2025-12-04 08:02:43 - __main__ - INFO - Road detected - Coverage: 23.3%, Angle: 90.7°
+2025-12-04 08:02:44 - __main__ - INFO - [5/5] Processing im5.jpeg
+2025-12-04 08:02:44 - __main__ - INFO - Processing: im5.jpeg (size: (750, 500, 3))
+2025-12-04 08:02:44 - __main__ - INFO - Road detected - Coverage: 27.1%, Angle: 107.7°
+2025-12-04 08:02:45 - __main__ - INFO - Processing complete: 5/5 images successful
+2025-12-04 08:02:45 - __main__ - INFO - ======================================================================
+2025-12-04 08:02:45 - __main__ - INFO - Processing complete!
+2025-12-04 08:02:45 - __main__ - INFO - ======================================================================
+2025-12-04 08:16:04 - __main__ - INFO - ======================================================================
+2025-12-04 08:16:04 - __main__ - INFO - Road Segmentation Application v2.0.0
+2025-12-04 08:16:04 - __main__ - INFO - ======================================================================
+2025-12-04 08:16:10 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-04 08:16:10 - __main__ - INFO - Transformers version: 4.57.3
+2025-12-04 08:16:10 - __main__ - INFO - CUDA available: False
+2025-12-04 08:16:10 - __main__ - INFO - Found 5 images to process
+2025-12-04 08:16:18 - __main__ - INFO - [1/5] Processing im1.jpg
+2025-12-04 08:16:19 - __main__ - INFO - Processing: im1.jpg (size: (1000, 1500, 3))
+2025-12-04 08:16:21 - __main__ - INFO - Road detected - Coverage: 9.9%, Angle: 154.1°
+2025-12-04 08:16:23 - __main__ - INFO - [2/5] Processing im2.jpg
+2025-12-04 08:16:23 - __main__ - INFO - Processing: im2.jpg (size: (418, 626, 3))
+2025-12-04 08:16:24 - __main__ - INFO - Road detected - Coverage: 47.0%, Angle: 98.6°
+2025-12-04 08:16:26 - __main__ - INFO - [3/5] Processing im3.jpg
+2025-12-04 08:16:26 - __main__ - INFO - Processing: im3.jpg (size: (1390, 866, 3))
+2025-12-04 08:16:28 - __main__ - INFO - Road detected - Coverage: 18.7%, Angle: 0.9°
+2025-12-04 08:16:30 - __main__ - INFO - [4/5] Processing im4.jpg
+2025-12-04 08:16:30 - __main__ - INFO - Processing: im4.jpg (size: (408, 612, 3))
+2025-12-04 08:16:31 - __main__ - INFO - Road detected - Coverage: 23.3%, Angle: 90.7°
+2025-12-04 08:16:32 - __main__ - INFO - [5/5] Processing im5.jpeg
+2025-12-04 08:16:32 - __main__ - INFO - Processing: im5.jpeg (size: (750, 500, 3))
+2025-12-04 08:16:34 - __main__ - INFO - Road detected - Coverage: 27.1%, Angle: 107.7°
+2025-12-04 08:16:35 - __main__ - INFO - Processing complete: 5/5 images successful
+2025-12-04 08:16:35 - __main__ - INFO - ======================================================================
+2025-12-04 08:16:35 - __main__ - INFO - Processing complete!
+2025-12-04 08:16:35 - __main__ - INFO - ======================================================================

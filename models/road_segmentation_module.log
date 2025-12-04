@@ -1,0 +1,337 @@
+2025-12-01 19:32:53,475 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-01 19:32:59,722 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-01 19:32:59,722 - __main__ - INFO - CUDA available: False
+2025-12-01 19:32:59,722 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-01 19:33:01,246 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-01 19:33:01,246 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-01 19:33:05,259 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-12-01 19:33:08,861 - RoadSegmentationProcessor - INFO - Model loaded successfully
+2025-12-01 19:33:08,894 - __main__ - INFO - Processing image: ./roadimages/im1.jpg
+2025-12-01 19:33:08,894 - __main__ - INFO - Image size: (1000, 1500, 3)
+2025-12-01 19:33:08,894 - RoadSegmentationProcessor - INFO - Processing frame...
+2025-12-01 19:33:10,452 - RoadSegmentationProcessor - INFO - Road orientation: 154.10 deg, Center: (790, 880)
+2025-12-01 19:33:10,465 - RoadSegmentationProcessor - INFO - Drew perpendicular line at angle 244.10 deg
+2025-12-01 19:33:10,471 - RoadSegmentationProcessor - INFO - Frame processed successfully
+2025-12-01 19:33:10,474 - __main__ - INFO - Road detected! Metadata: {'road_angle': 154.1026153564453, 'center': (790, 880), 'perpendicular_angle': 244.1026153564453, 'road_detected': True, 'road_coverage': 9.903933333333333}
+2025-12-01 19:33:10,711 - __main__ - INFO - Press any key to close windows...
+2025-12-01 19:33:11,310 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-12-01 19:33:24,157 - __main__ - INFO - Output saved to: ./roadimages/output_im1.jpg
+2025-12-02 00:54:18,511 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-02 00:54:43,394 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-02 00:54:43,395 - __main__ - INFO - CUDA available: False
+2025-12-02 00:54:43,395 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-02 00:54:44,582 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-02 00:54:44,583 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-02 00:54:47,830 - RoadSegmentationProcessor - INFO - Model loaded successfully
+2025-12-02 00:54:48,240 - __main__ - INFO - Processing image: ./roadimages/im1.jpg
+2025-12-02 00:54:48,242 - __main__ - INFO - Image size: (1000, 1500, 3)
+2025-12-02 00:54:48,242 - RoadSegmentationProcessor - INFO - Processing frame...
+2025-12-02 00:54:55,000 - RoadSegmentationProcessor - INFO - Road orientation: 154.10 deg, Center: (790, 880)
+2025-12-02 00:54:55,024 - RoadSegmentationProcessor - INFO - Drew perpendicular line at angle 244.10 deg
+2025-12-02 00:54:55,033 - RoadSegmentationProcessor - INFO - Frame processed successfully
+2025-12-02 00:54:55,035 - __main__ - INFO - Road detected! Metadata: {'road_angle': 154.1026153564453, 'center': (790, 880), 'perpendicular_angle': 244.1026153564453, 'road_detected': True, 'road_coverage': 9.903933333333333}
+2025-12-02 00:54:55,098 - __main__ - INFO - Press any key to close windows...
+2025-12-02 00:56:15,827 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-02 00:56:22,125 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-02 00:56:22,126 - __main__ - INFO - CUDA available: False
+2025-12-02 00:56:22,126 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-02 00:56:22,865 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-02 00:56:22,865 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-02 00:56:25,479 - RoadSegmentationProcessor - INFO - Model loaded successfully
+2025-12-02 00:56:25,483 - __main__ - INFO - Processing image: ./roadimages/im4.jpg
+2025-12-02 00:56:25,483 - __main__ - INFO - Image size: (408, 612, 3)
+2025-12-02 00:56:25,483 - RoadSegmentationProcessor - INFO - Processing frame...
+2025-12-02 00:56:26,365 - RoadSegmentationProcessor - INFO - Road orientation: 90.68 deg, Center: (235, 343)
+2025-12-02 00:56:26,371 - RoadSegmentationProcessor - INFO - Drew perpendicular line at angle 180.68 deg
+2025-12-02 00:56:26,373 - RoadSegmentationProcessor - INFO - Frame processed successfully
+2025-12-02 00:56:26,373 - __main__ - INFO - Road detected! Metadata: {'road_angle': 90.68057250976562, 'center': (235, 343), 'perpendicular_angle': 180.68057250976562, 'road_detected': True, 'road_coverage': 23.346789696270665}
+2025-12-02 00:56:26,440 - __main__ - INFO - Press any key to close windows...
+2025-12-02 00:56:47,671 - __main__ - INFO - Output saved to: ./roadimages/output_im1.jpg
+2025-12-02 00:57:28,312 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-02 00:57:37,956 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-02 00:57:37,956 - __main__ - INFO - CUDA available: False
+2025-12-02 00:57:37,956 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-02 00:57:38,904 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-02 00:57:38,904 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-02 00:57:42,591 - RoadSegmentationProcessor - INFO - Model loaded successfully
+2025-12-02 00:57:42,627 - __main__ - INFO - Processing image: ./roadimages/im1.jpg
+2025-12-02 00:57:42,628 - __main__ - INFO - Image size: (1000, 1500, 3)
+2025-12-02 00:57:42,628 - RoadSegmentationProcessor - INFO - Processing frame...
+2025-12-02 00:57:44,394 - RoadSegmentationProcessor - INFO - Road orientation: 154.10 deg, Center: (790, 880)
+2025-12-02 00:57:44,410 - RoadSegmentationProcessor - INFO - Drew perpendicular line at angle 244.10 deg
+2025-12-02 00:57:44,417 - RoadSegmentationProcessor - INFO - Frame processed successfully
+2025-12-02 00:57:44,419 - __main__ - INFO - Road detected! Metadata: {'road_angle': 154.1026153564453, 'center': (790, 880), 'perpendicular_angle': 244.1026153564453, 'road_detected': True, 'road_coverage': 9.903933333333333}
+2025-12-02 00:57:44,701 - __main__ - INFO - Press any key to close windows...
+2025-12-02 00:58:00,137 - __main__ - INFO - Output saved to: ./roadimages/output_im1.jpg
+2025-12-02 00:58:09,193 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-02 00:58:17,031 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-02 00:58:17,031 - __main__ - INFO - CUDA available: False
+2025-12-02 00:58:17,031 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-02 00:58:17,972 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-02 00:58:17,973 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-02 00:58:20,766 - RoadSegmentationProcessor - INFO - Model loaded successfully
+2025-12-02 00:58:20,771 - __main__ - INFO - Processing image: ./roadimages/im4.jpg
+2025-12-02 00:58:20,771 - __main__ - INFO - Image size: (408, 612, 3)
+2025-12-02 00:58:20,772 - RoadSegmentationProcessor - INFO - Processing frame...
+2025-12-02 00:58:21,819 - RoadSegmentationProcessor - INFO - Road orientation: 90.68 deg, Center: (235, 343)
+2025-12-02 00:58:21,825 - RoadSegmentationProcessor - INFO - Drew perpendicular line at angle 180.68 deg
+2025-12-02 00:58:21,827 - RoadSegmentationProcessor - INFO - Frame processed successfully
+2025-12-02 00:58:21,827 - __main__ - INFO - Road detected! Metadata: {'road_angle': 90.68057250976562, 'center': (235, 343), 'perpendicular_angle': 180.68057250976562, 'road_detected': True, 'road_coverage': 23.346789696270665}
+2025-12-02 00:58:21,897 - __main__ - INFO - Press any key to close windows...
+2025-12-02 00:58:35,578 - __main__ - INFO - Output saved to: ./roadimages/output_im1.jpg
+2022-05-07 18:00:22,971 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2022-05-07 18:00:32,568 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2022-05-07 18:00:32,568 - __main__ - INFO - CUDA available: False
+2022-05-07 18:00:32,568 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2022-05-07 18:00:34,231 - RoadSegmentationProcessor - INFO - Using device: cpu
+2022-05-07 18:00:34,232 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2022-05-07 18:00:34,246 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029937093620>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: adfd02fd-dcbc-49b2-b0e7-d6330d5391c4)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2022-05-07 18:00:34,246 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2022-05-07 18:00:35,646 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029937043B10>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 92cea02c-79f4-48e4-bf50-45f117d94390)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2022-05-07 18:00:35,652 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2022-05-07 18:00:38,406 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002992A130050>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: a8acc542-64d8-4b22-b441-e95ffd36cf7a)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2022-05-07 18:00:38,406 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2022-05-07 18:00:42,408 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002992A1302D0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: fd272828-fd30-4c93-abeb-9503724bf4ff)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2022-05-07 18:00:42,409 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2022-05-07 18:00:50,411 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002992A130550>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: cda7acc5-56ec-4a70-bdac-7c2306bddff3)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2022-05-07 18:00:50,411 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2022-05-07 18:00:59,164 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1077)')))"), '(Request ID: 7e269ed6-a50d-4a1d-b4b5-019175a6b5ea)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2022-05-07 18:00:59,815 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/processor_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1077)')))"), '(Request ID: 3351ec00-aaf0-49e3-80a5-0411d116ff1e)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/processor_config.json
+2022-05-07 18:00:59,816 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2022-05-07 18:01:01,436 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/processor_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1077)')))"), '(Request ID: caaca8ea-e3ea-4976-8aa3-b43bd461df63)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/processor_config.json
+2022-05-07 18:01:01,436 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2022-05-07 18:01:04,051 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/processor_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1077)')))"), '(Request ID: 8a58850a-9b8b-4fa6-b394-8576eeea9bbb)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/processor_config.json
+2022-05-07 18:01:04,051 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2025-12-03 22:44:48,304 - RoadSegmentationProcessor - INFO - Model loaded successfully
+2025-12-03 22:44:48,344 - __main__ - INFO - Processing image: ./roadimages/im1.jpg
+2025-12-03 22:44:48,344 - __main__ - INFO - Image size: (1000, 1500, 3)
+2025-12-03 22:44:48,344 - RoadSegmentationProcessor - INFO - Processing frame...
+2025-12-03 22:44:50,042 - RoadSegmentationProcessor - INFO - Road orientation: 154.10 deg, Center: (790, 880)
+2025-12-03 22:44:50,064 - RoadSegmentationProcessor - INFO - Drew perpendicular line at angle 244.10 deg
+2025-12-03 22:44:50,073 - RoadSegmentationProcessor - INFO - Frame processed successfully
+2025-12-03 22:44:50,074 - __main__ - INFO - Road detected! Metadata: {'road_angle': 154.1026153564453, 'center': (790, 880), 'perpendicular_angle': 244.1026153564453, 'road_detected': True, 'road_coverage': 9.903933333333333}
+2025-12-03 22:44:50,292 - __main__ - INFO - Press any key to close windows...
+2025-12-03 22:46:33,081 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 22:46:39,371 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 22:46:39,371 - __main__ - INFO - CUDA available: False
+2025-12-03 22:46:39,371 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 22:46:40,138 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 22:46:40,138 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 22:46:40,145 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028B55263620>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 8bfada4c-23d5-4b01-9da7-353fbd59393d)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2025-12-03 22:46:40,149 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2025-12-03 22:46:41,152 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028B5520BB10>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 9b968029-14bd-4a04-be75-e875b8aeaea9)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2025-12-03 22:46:41,152 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2025-12-03 22:46:43,155 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028B48300050>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 321f6519-cdcd-4d1a-a932-259c50b3a666)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b0-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2025-12-03 22:46:43,155 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2025-12-03 22:46:50,601 - RoadSegmentationProcessor - INFO - Model loaded successfully
+2025-12-03 22:46:50,643 - __main__ - INFO - Processing image: ./roadimages/im1.jpg
+2025-12-03 22:46:50,643 - __main__ - INFO - Image size: (1000, 1500, 3)
+2025-12-03 22:46:50,643 - RoadSegmentationProcessor - INFO - Processing frame...
+2025-12-03 22:46:52,176 - RoadSegmentationProcessor - INFO - Road orientation: 154.10 deg, Center: (790, 880)
+2025-12-03 22:46:52,195 - RoadSegmentationProcessor - INFO - Drew perpendicular line at angle 90.00 deg
+2025-12-03 22:46:52,201 - RoadSegmentationProcessor - INFO - Frame processed successfully
+2025-12-03 22:46:52,202 - __main__ - INFO - Road detected! Metadata: {'road_angle': 154.1026153564453, 'center': (790, 880), 'perpendicular_angle': 244.1026153564453, 'road_detected': True, 'road_coverage': 9.903933333333333}
+2025-12-03 22:46:52,334 - __main__ - INFO - Press any key to close windows...
+2025-12-03 22:47:03,172 - __main__ - INFO - Output saved to: ./roadimages/output_im1.jpg
+2025-12-03 22:47:28,165 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 22:47:34,122 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 22:47:34,123 - __main__ - INFO - CUDA available: False
+2025-12-03 22:47:34,123 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 22:47:34,837 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 22:47:34,837 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 22:47:37,464 - RoadSegmentationProcessor - INFO - Model loaded successfully
+2025-12-03 22:47:37,496 - __main__ - INFO - Processing image: ./roadimages/im1.jpg
+2025-12-03 22:47:37,496 - __main__ - INFO - Image size: (1000, 1500, 3)
+2025-12-03 22:47:37,496 - RoadSegmentationProcessor - INFO - Processing frame...
+2025-12-03 22:47:38,914 - RoadSegmentationProcessor - INFO - Road orientation: 154.10 deg, Center: (790, 880)
+2025-12-03 22:47:38,933 - RoadSegmentationProcessor - INFO - Drew perpendicular line at angle 180.00 deg
+2025-12-03 22:47:38,941 - RoadSegmentationProcessor - INFO - Frame processed successfully
+2025-12-03 22:47:38,943 - __main__ - INFO - Road detected! Metadata: {'road_angle': 154.1026153564453, 'center': (790, 880), 'perpendicular_angle': 244.1026153564453, 'road_detected': True, 'road_coverage': 9.903933333333333}
+2025-12-03 22:47:39,002 - __main__ - INFO - Press any key to close windows...
+2025-12-03 22:47:51,977 - __main__ - INFO - Output saved to: ./roadimages/output_im1.jpg
+2025-12-03 22:55:47,904 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 22:55:55,508 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 22:55:55,508 - __main__ - INFO - CUDA available: False
+2025-12-03 22:55:55,508 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 22:55:56,257 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 22:55:56,257 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 22:55:58,821 - RoadSegmentationProcessor - INFO - Model loaded successfully
+2025-12-03 22:55:58,897 - __main__ - INFO - Processing image: ./roadimages/im1.jpg
+2025-12-03 22:55:58,897 - __main__ - INFO - Image size: (1000, 1500, 3)
+2025-12-03 22:55:58,897 - RoadSegmentationProcessor - INFO - Processing frame...
+2025-12-03 22:56:00,279 - RoadSegmentationProcessor - INFO - Road orientation: 154.10 deg, Center: (790, 880)
+2025-12-03 22:56:00,301 - RoadSegmentationProcessor - INFO - Drew perpendicular line at angle 180.00 deg
+2025-12-03 22:56:00,307 - RoadSegmentationProcessor - INFO - Frame processed successfully
+2025-12-03 22:56:00,309 - __main__ - INFO - Road detected! Metadata: {'road_angle': 154.1026153564453, 'center': (790, 880), 'perpendicular_angle': 244.1026153564453, 'road_detected': True, 'road_coverage': 9.903933333333333}
+2025-12-03 22:56:00,368 - __main__ - INFO - Press any key to close windows...
+2025-12-03 22:56:10,850 - __main__ - INFO - Output saved to: ./roadimages/output_im1.jpg
+2025-12-03 22:56:24,609 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 22:56:30,477 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 22:56:30,477 - __main__ - INFO - CUDA available: False
+2025-12-03 22:56:30,477 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 22:56:31,198 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 22:56:31,198 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 22:56:31,199 - RoadSegmentationProcessor - ERROR - Failed to load model: Can't load image processor for 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024' is the correct path to a directory containing a preprocessor_config.json file
+2025-12-03 22:57:27,364 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 22:57:34,321 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 22:57:34,322 - __main__ - INFO - CUDA available: False
+2025-12-03 22:57:34,322 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 22:57:35,171 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 22:57:35,171 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 22:57:35,172 - RoadSegmentationProcessor - ERROR - Failed to load model: Can't load image processor for 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024' is the correct path to a directory containing a preprocessor_config.json file
+2025-12-03 23:00:29,019 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 23:00:34,817 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 23:00:34,818 - __main__ - INFO - CUDA available: False
+2025-12-03 23:00:34,818 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 23:00:35,514 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 23:00:35,514 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 23:00:35,515 - RoadSegmentationProcessor - ERROR - Failed to load model: Can't load image processor for 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024' is the correct path to a directory containing a preprocessor_config.json file
+2025-12-03 23:01:17,056 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 23:01:23,197 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 23:01:23,197 - __main__ - INFO - CUDA available: False
+2025-12-03 23:01:23,197 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 23:01:23,909 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 23:01:23,909 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 23:01:23,910 - RoadSegmentationProcessor - ERROR - Failed to load model: Can't load image processor for 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024' is the correct path to a directory containing a preprocessor_config.json file
+2025-12-03 23:01:43,227 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 23:01:49,242 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 23:01:49,242 - __main__ - INFO - CUDA available: False
+2025-12-03 23:01:49,242 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 23:01:50,064 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 23:01:50,064 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 23:01:50,065 - RoadSegmentationProcessor - ERROR - Failed to load model: Can't load image processor for 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024' is the correct path to a directory containing a preprocessor_config.json file
+2025-12-03 23:02:24,019 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 23:02:30,149 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 23:02:30,149 - __main__ - INFO - CUDA available: False
+2025-12-03 23:02:30,150 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 23:02:30,889 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 23:02:30,889 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 23:02:30,889 - RoadSegmentationProcessor - ERROR - Failed to load model: Can't load image processor for 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024' is the correct path to a directory containing a preprocessor_config.json file
+2025-12-03 23:03:24,808 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 23:03:30,978 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 23:03:30,978 - __main__ - INFO - CUDA available: False
+2025-12-03 23:03:30,978 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 23:03:31,692 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 23:03:31,693 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 23:03:31,693 - RoadSegmentationProcessor - ERROR - Failed to load model: Can't load image processor for 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024' is the correct path to a directory containing a preprocessor_config.json file
+2025-12-03 23:04:06,095 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 23:04:13,490 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 23:04:13,490 - __main__ - INFO - CUDA available: False
+2025-12-03 23:04:13,491 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 23:04:14,209 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 23:04:14,209 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 23:04:14,210 - RoadSegmentationProcessor - ERROR - Failed to load model: Can't load image processor for 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'nvidia/segformer-b0-finetuned-cityscapes-1024-1024' is the correct path to a directory containing a preprocessor_config.json file
+2025-12-03 23:04:46,216 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 23:04:52,246 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 23:04:52,246 - __main__ - INFO - CUDA available: False
+2025-12-03 23:04:52,246 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 23:04:52,965 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 23:04:52,965 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 23:04:55,610 - RoadSegmentationProcessor - INFO - Model loaded successfully
+2025-12-03 23:04:55,639 - __main__ - INFO - Processing image: ./roadimages/im1.jpg
+2025-12-03 23:04:55,639 - __main__ - INFO - Image size: (1000, 1500, 3)
+2025-12-03 23:04:55,639 - RoadSegmentationProcessor - INFO - Processing frame...
+2025-12-03 23:04:57,026 - RoadSegmentationProcessor - INFO - Road orientation: 154.10 deg, Center: (790, 880)
+2025-12-03 23:04:57,039 - RoadSegmentationProcessor - INFO - Drew perpendicular line at angle 180.00 deg
+2025-12-03 23:04:57,044 - RoadSegmentationProcessor - INFO - Frame processed successfully
+2025-12-03 23:04:57,046 - __main__ - INFO - Road detected! Metadata: {'road_angle': 154.1026153564453, 'center': (790, 880), 'perpendicular_angle': 244.1026153564453, 'road_detected': True, 'road_coverage': 9.903933333333333}
+2025-12-03 23:04:57,105 - __main__ - INFO - Press any key to close windows...
+2025-12-03 23:05:04,230 - __main__ - INFO - Output saved to: ./roadimages/output_im1.jpg
+2025-12-03 23:05:23,632 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 23:05:29,883 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 23:05:29,883 - __main__ - INFO - CUDA available: False
+2025-12-03 23:05:29,883 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 23:05:30,599 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 23:05:30,599 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 23:05:33,235 - RoadSegmentationProcessor - INFO - Model loaded successfully
+2025-12-03 23:05:33,268 - __main__ - INFO - Processing image: ./roadimages/im1.jpg
+2025-12-03 23:05:33,268 - __main__ - INFO - Image size: (1000, 1500, 3)
+2025-12-03 23:05:33,268 - RoadSegmentationProcessor - INFO - Processing frame...
+2025-12-03 23:05:34,663 - RoadSegmentationProcessor - INFO - Road orientation: 154.10 deg, Center: (790, 880)
+2025-12-03 23:05:34,680 - RoadSegmentationProcessor - INFO - Drew perpendicular line at angle 180.00 deg
+2025-12-03 23:05:34,685 - RoadSegmentationProcessor - INFO - Frame processed successfully
+2025-12-03 23:05:34,686 - __main__ - INFO - Road detected! Metadata: {'road_angle': 154.1026153564453, 'center': (790, 880), 'perpendicular_angle': 244.1026153564453, 'road_detected': True, 'road_coverage': 9.903933333333333}
+2025-12-03 23:05:34,744 - __main__ - INFO - Press any key to close windows...
+2025-12-03 23:05:44,955 - __main__ - INFO - Output saved to: ./roadimages/output_im1.jpg
+2025-12-03 23:06:06,520 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 23:06:13,954 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 23:06:13,954 - __main__ - INFO - CUDA available: False
+2025-12-03 23:06:13,954 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 23:06:14,670 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 23:06:14,670 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 23:06:17,326 - RoadSegmentationProcessor - INFO - Model loaded successfully
+2025-12-03 23:06:17,331 - __main__ - INFO - Processing image: ./roadimages/im4.jpg
+2025-12-03 23:06:17,331 - __main__ - INFO - Image size: (408, 612, 3)
+2025-12-03 23:06:17,331 - RoadSegmentationProcessor - INFO - Processing frame...
+2025-12-03 23:06:18,172 - RoadSegmentationProcessor - INFO - Road orientation: 90.68 deg, Center: (235, 343)
+2025-12-03 23:06:18,175 - RoadSegmentationProcessor - INFO - Drew perpendicular line at angle 180.00 deg
+2025-12-03 23:06:18,177 - RoadSegmentationProcessor - INFO - Frame processed successfully
+2025-12-03 23:06:18,177 - __main__ - INFO - Road detected! Metadata: {'road_angle': 90.68057250976562, 'center': (235, 343), 'perpendicular_angle': 180.68057250976562, 'road_detected': True, 'road_coverage': 23.346789696270665}
+2025-12-03 23:06:18,237 - __main__ - INFO - Press any key to close windows...
+2025-12-03 23:06:27,685 - __main__ - INFO - Output saved to: ./roadimages/output_im1.jpg
+2025-12-03 23:07:10,752 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 23:07:16,694 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 23:07:16,694 - __main__ - INFO - CUDA available: False
+2025-12-03 23:07:16,695 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 23:07:17,411 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 23:07:17,412 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 23:07:19,906 - RoadSegmentationProcessor - INFO - Model loaded successfully
+2025-12-03 23:07:19,913 - __main__ - INFO - Processing image: ./roadimages/im2.jpg
+2025-12-03 23:07:19,914 - __main__ - INFO - Image size: (418, 626, 3)
+2025-12-03 23:07:19,914 - RoadSegmentationProcessor - INFO - Processing frame...
+2025-12-03 23:07:20,733 - RoadSegmentationProcessor - INFO - Road orientation: 98.65 deg, Center: (291, 313)
+2025-12-03 23:07:20,740 - RoadSegmentationProcessor - INFO - Drew perpendicular line at angle 180.00 deg
+2025-12-03 23:07:20,741 - RoadSegmentationProcessor - INFO - Frame processed successfully
+2025-12-03 23:07:20,741 - __main__ - INFO - Road detected! Metadata: {'road_angle': 98.6484146118164, 'center': (291, 313), 'perpendicular_angle': 188.6484146118164, 'road_detected': True, 'road_coverage': 46.95683079321889}
+2025-12-03 23:07:20,918 - __main__ - INFO - Press any key to close windows...
+2025-12-03 23:07:32,074 - __main__ - INFO - Output saved to: ./roadimages/output_im1.jpg
+2025-12-03 23:07:42,869 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 23:07:48,798 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 23:07:48,798 - __main__ - INFO - CUDA available: False
+2025-12-03 23:07:48,798 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 23:07:49,500 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 23:07:49,500 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 23:07:51,966 - RoadSegmentationProcessor - INFO - Model loaded successfully
+2025-12-03 23:07:51,978 - __main__ - INFO - Processing image: ./roadimages/im3.jpg
+2025-12-03 23:07:51,978 - __main__ - INFO - Image size: (1390, 866, 3)
+2025-12-03 23:07:51,978 - RoadSegmentationProcessor - INFO - Processing frame...
+2025-12-03 23:07:53,290 - RoadSegmentationProcessor - INFO - Road orientation: 0.93 deg, Center: (415, 1130)
+2025-12-03 23:07:53,304 - RoadSegmentationProcessor - INFO - Drew perpendicular line at angle 180.00 deg
+2025-12-03 23:07:53,308 - RoadSegmentationProcessor - INFO - Frame processed successfully
+2025-12-03 23:07:53,309 - __main__ - INFO - Road detected! Metadata: {'road_angle': 0.9311690926551819, 'center': (415, 1130), 'perpendicular_angle': 90.93116909265518, 'road_detected': True, 'road_coverage': 18.65452672504029}
+2025-12-03 23:07:53,532 - __main__ - INFO - Press any key to close windows...
+2025-12-03 23:09:02,534 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 23:09:10,842 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 23:09:10,842 - __main__ - INFO - CUDA available: False
+2025-12-03 23:09:10,842 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b0-finetuned-cityscapes-1024-1024
+2025-12-03 23:09:11,566 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 23:09:11,566 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 23:09:14,070 - RoadSegmentationProcessor - INFO - Model loaded successfully
+2025-12-03 23:09:14,078 - __main__ - INFO - Processing image: ./roadimages/im5.jpeg
+2025-12-03 23:09:14,078 - __main__ - INFO - Image size: (750, 500, 3)
+2025-12-03 23:09:14,078 - RoadSegmentationProcessor - INFO - Processing frame...
+2025-12-03 23:09:14,999 - RoadSegmentationProcessor - INFO - Road orientation: 107.75 deg, Center: (244, 615)
+2025-12-03 23:09:15,005 - RoadSegmentationProcessor - INFO - Drew perpendicular line at angle 180.00 deg
+2025-12-03 23:09:15,007 - RoadSegmentationProcessor - INFO - Frame processed successfully
+2025-12-03 23:09:15,007 - __main__ - INFO - Road detected! Metadata: {'road_angle': 107.74592590332031, 'center': (244, 615), 'perpendicular_angle': 197.7459259033203, 'road_detected': True, 'road_coverage': 27.12346666666667}
+2025-12-03 23:09:15,111 - __main__ - INFO - Press any key to close windows...
+2025-12-03 23:09:25,619 - __main__ - INFO - Output saved to: ./roadimages/output_im1.jpg
+2025-12-03 23:20:06,701 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 23:20:14,048 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 23:20:14,048 - __main__ - INFO - CUDA available: False
+2025-12-03 23:20:14,048 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b5-finetuned-cityscapes-1024-1024
+2025-12-03 23:20:14,756 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 23:20:14,756 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 23:20:14,768 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001DD23B93620>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 3f1b1347-c4ed-4d26-aa80-75a9ef15dd5e)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2025-12-03 23:20:14,768 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2025-12-03 23:20:15,771 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001DD23B37B10>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 26e9489e-41eb-4aad-988d-4c4ea4a8b7f0)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2025-12-03 23:20:15,771 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2025-12-03 23:20:17,773 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001DD16CAC050>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: d97c0422-3375-4390-b2ac-6a1e0432c03f)')' thrown while requesting HEAD https://huggingface.co/nvidia/segformer-b5-finetuned-cityscapes-1024-1024/resolve/main/preprocessor_config.json
+2025-12-03 23:20:17,774 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2025-12-03 23:21:51,732 - __main__ - INFO - Starting Road Segmentation Application with Deep Learning
+2025-12-03 23:21:58,000 - __main__ - INFO - PyTorch version: 2.9.1+cpu
+2025-12-03 23:21:58,001 - __main__ - INFO - CUDA available: False
+2025-12-03 23:21:58,001 - RoadSegmentationProcessor - INFO - Initializing RoadSegmentationProcessor with model: nvidia/segformer-b5-finetuned-cityscapes-1024-1024
+2025-12-03 23:21:58,713 - RoadSegmentationProcessor - INFO - Using device: cpu
+2025-12-03 23:21:58,713 - RoadSegmentationProcessor - INFO - Loading model... (this may take a minute on first run)
+2025-12-03 23:24:23,123 - RoadSegmentationProcessor - ERROR - Failed to load model: Can't load the model for 'nvidia/segformer-b5-finetuned-cityscapes-1024-1024'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'nvidia/segformer-b5-finetuned-cityscapes-1024-1024' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.

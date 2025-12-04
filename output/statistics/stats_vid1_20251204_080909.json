@@ -1,0 +1,11 @@
+{
+  "class_counts": {
+    "car": 6,
+    "bus": 2
+  },
+  "total_vehicles": 8,
+  "frames_processed": 34,
+  "unique_objects_tracked": 8,
+  "start_time": "2025-12-04T08:07:58.802696",
+  "duration_seconds": 70.987872
+}
