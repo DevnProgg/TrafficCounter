@@ -1,6 +1,6 @@
 .venv/
-.idea
-models
-output
-roadimages
-trafficvideos
+.idea/
+models/
+output/
+roadimages/
+trafficvideos/

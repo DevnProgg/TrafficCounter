@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="915b6b43-43f2-4095-af63-8b3a6c62a8a3" name="Changes" comment="production ready v1.2">
+    <list default="true" id="915b6b43-43f2-4095-af63-8b3a6c62a8a3" name="Changes" comment=".gitignore revaluation">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TrafficCounter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TrafficCounter.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765975125230</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=".gitignore revaluation">
+      <option name="closed" value="true" />
+      <created>1765975488017</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765975488017</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +257,7 @@
     <MESSAGE value="production ready v1" />
     <MESSAGE value="production ready v1.1" />
     <MESSAGE value="production ready v1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="production ready v1.2" />
+    <MESSAGE value=".gitignore revaluation" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore revaluation" />
   </component>
 </project>
