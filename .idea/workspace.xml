@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="915b6b43-43f2-4095-af63-8b3a6c62a8a3" name="Changes" comment="production ready v1">
-      <change afterPath="$PROJECT_DIR$/analytics.py" afterDir="false" />
+    <list default="true" id="915b6b43-43f2-4095-af63-8b3a6c62a8a3" name="Changes" comment="production ready v1.1">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics.py" beforeDir="false" afterPath="$PROJECT_DIR$/analytics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/road_detection.log" beforeDir="false" afterPath="$PROJECT_DIR$/models/road_detection.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/road_segmentation.log" beforeDir="false" afterPath="$PROJECT_DIR$/models/road_segmentation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/road_segmentation_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/road_segmentation_v2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DevnProgg"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DevnProgg&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DevnProgg/TrafficCounter.git",
-    "accountId": "ab307607-8c76-4da9-829e-abe20eff62a1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DevnProgg/TrafficCounter.git&quot;,
+    &quot;accountId&quot;: &quot;ab307607-8c76-4da9-829e-abe20eff62a1&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -43,21 +47,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Main.executor": "Run",
-    "Python.analytics.executor": "Run",
-    "Python.road_detection.executor": "Run",
-    "Python.road_segmentation.executor": "Run",
-    "Python.road_segmentation_v2.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.analytics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.road_detection.executor&quot;: &quot;Run&quot;,
+    &quot;Python.road_segmentation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.road_segmentation_v2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dev\PycharmProjects\PythonProject" />
@@ -215,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764877101402</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="production ready v1.1">
+      <option name="closed" value="true" />
+      <created>1764878166176</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764878166176</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +243,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="production ready v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="production ready v1" />
+    <MESSAGE value="production ready v1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="production ready v1.1" />
   </component>
 </project>

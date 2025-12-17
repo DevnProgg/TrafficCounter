@@ -1,0 +1,6 @@
+.venv/
+.idea/
+models/
+output/
+roadimages/
+trafficvideos/

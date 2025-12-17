@@ -2,7 +2,7 @@
 Road Segmentation using Deep Learning (Segformer on Cityscapes)
 Production-ready semantic segmentation for road detection.
 
-Author: [Your Name]
+Author: Lauren Khalapa Qokolo
 Version: 2.0.0
 License: MIT
 """

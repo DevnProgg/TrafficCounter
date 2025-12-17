@@ -573,7 +573,7 @@ def main():
     dashboard = TrafficAnalyticsDashboard()
 
     # Example: Load and analyze a single statistics file
-    stats_file = Path('./output/statistics/stats_vid3_20251204_082008.json')
+    stats_file = Path('./output/statistics/stats_vid3_20251204_221646.json')
 
     if stats_file.exists():
         analytics = dashboard.load_and_analyze(stats_file)
